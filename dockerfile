@@ -10,8 +10,8 @@ RUN pip install --no-cache-dir --upgrade -r requirements.txt --target=/app/appRe
 ENV PYTHONPATH=/app/appRequirements
 
 RUN pip install langchain
-RUN apt-get update && apt-get -y install cron
-#RUN apt-get update && apt-get -y install nano
+#RUN apt-get update && apt-get -y install cron
+RUN apt-get update && apt-get -y install nano
 
 # copy the scripts to the folder
 COPY . /app
