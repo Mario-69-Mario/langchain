@@ -1,2 +1,6 @@
 openai
 flask
+openai
+chromadb 
+tiktoken
+unstructured
